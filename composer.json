@@ -5,16 +5,16 @@
             "url": "https://github.com/slub/amt_feed_importer.git"
         },
         "kitodo-presentation": {
-            "type": "git",
-            "url": "https://github.com/kitodo/kitodo-presentation.git"
+            "type": "path",
+            "url": "./extensions/kitodo-presentation"
         },
         "slub-digitalcollections": {
-            "type": "git",
-            "url": "https://github.com/slub/slub_digitalcollections.git"
+            "type": "path",
+            "url": "./extensions/slub_digitalcollections"
         },
         "slub-web-sachsendigital": {
-            "type": "git",
-            "url": "https://github.com/slub/slub_web_sachsendigital.git"
+            "type": "path",
+            "url": "./extensions/slub_web_sachsendigital"
         },
         "0": {
             "type": "composer",
@@ -35,7 +35,7 @@
         }
     },
     "require": {
-        "helhum/typo3-console": "^6.0.0",
+        "helhum/typo3-console": "^6.7",
         "typo3/minimal": "^10.4",
         "typo3/cms-about": "^10.4",
         "typo3/cms-adminpanel": "^10.4",

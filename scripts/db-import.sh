@@ -5,4 +5,4 @@ source "$SCRIPTDIR/util.sh"
 
 DBFILE=$(db_file $1)
 
-ddev import-db --src="$DBFILE"
+ddev import-db --file="$DBFILE"
