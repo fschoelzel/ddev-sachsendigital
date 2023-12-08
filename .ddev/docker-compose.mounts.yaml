@@ -2,4 +2,7 @@ version: '3.6'
 services:
   web:
     volumes:
-      - "$HOME/projects/extensions:/var/www/extensions"
+    #   - "$HOME/projects/extensions:/var/www/extensions"
+      - "$HOME/projects/extensions/fschoelzel/kitodo-presentation:/var/www/extensions/kitodo-presentation"
+      - "$HOME/projects/extensions/fschoelzel/slub_web_sachsendigital:/var/www/extensions/slub_web_sachsendigital"
+      - "$HOME/projects/extensions/fschoelzel/slub_digitalcollections:/var/www/extensions/slub_digitalcollections"
